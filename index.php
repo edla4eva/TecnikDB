@@ -12,6 +12,11 @@ define('BASEPATH', '');
     <title>TecnikDB Home</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+      <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="admin/assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
   <script> 
           
       // Function to check Whether both passwords 

@@ -18,7 +18,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Dashboard by Creative Tim
+    TecnikDB
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -45,278 +45,114 @@ The above copyright notice and this permission notice shall be included in all c
     </div>
     <div class="main-panel">
       <!-- Navbar -->
-        <?php include '../assets/navbar.php'; ?>
+      <?php include '../assets/navbar.php'; ?>
       <!-- End Navbar -->
       <div class="content">
         <div class="container-fluid">
+          <div class="row"> <h1> User Profile </h1> </div>
           <div class="row">
-            <div class="col-md-12">
+            
+            <div class="col-md-8">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Simple Table</h4>
-                  <p class="card-category"> Here is a subtitle for this table</p>
+                  <h4 class="card-title">Edit Profile</h4>
+                  <p class="card-category">Complete your profile</p>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table">
-                      <thead class=" text-primary">
-                        <th>
-                          ID
-                        </th>
-                        <th>
-                          Name
-                        </th>
-                        <th>
-                          Country
-                        </th>
-                        <th>
-                          City
-                        </th>
-                        <th>
-                          Salary
-                        </th>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            1
-                          </td>
-                          <td>
-                            Dakota Rice
-                          </td>
-                          <td>
-                            Niger
-                          </td>
-                          <td>
-                            Oud-Turnhout
-                          </td>
-                          <td class="text-primary">
-                            $36,738
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            2
-                          </td>
-                          <td>
-                            Minerva Hooper
-                          </td>
-                          <td>
-                            Curaçao
-                          </td>
-                          <td>
-                            Sinaai-Waas
-                          </td>
-                          <td class="text-primary">
-                            $23,789
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            3
-                          </td>
-                          <td>
-                            Sage Rodriguez
-                          </td>
-                          <td>
-                            Netherlands
-                          </td>
-                          <td>
-                            Baileux
-                          </td>
-                          <td class="text-primary">
-                            $56,142
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            4
-                          </td>
-                          <td>
-                            Philip Chaney
-                          </td>
-                          <td>
-                            Korea, South
-                          </td>
-                          <td>
-                            Overland Park
-                          </td>
-                          <td class="text-primary">
-                            $38,735
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            5
-                          </td>
-                          <td>
-                            Doris Greene
-                          </td>
-                          <td>
-                            Malawi
-                          </td>
-                          <td>
-                            Feldkirchen in Kärnten
-                          </td>
-                          <td class="text-primary">
-                            $63,542
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            6
-                          </td>
-                          <td>
-                            Mason Porter
-                          </td>
-                          <td>
-                            Chile
-                          </td>
-                          <td>
-                            Gloucester
-                          </td>
-                          <td class="text-primary">
-                            $78,615
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <form>
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Company (disabled)</label>
+                          <input type="text" class="form-control" disabled>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Username</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Email address</label>
+                          <input type="email" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Fist Name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Last Name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Adress</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">City</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Country</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Postal Code</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>About Me</label>
+                          <div class="form-group">
+                            <label class="bmd-label-floating"> MD/CEO, Passionate and determined mind.</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
+                    <div class="clearfix"></div>
+                  </form>
                 </div>
               </div>
             </div>
-            <div class="col-md-12">
-              <div class="card card-plain">
-                <div class="card-header card-header-primary">
-                  <h4 class="card-title mt-0"> Table on Plain Background</h4>
-                  <p class="card-category"> Here is a subtitle for this table</p>
+            <div class="col-md-4">
+              <div class="card card-profile">
+                <div class="card-avatar">
+                  <a href="javascript:;">
+                    <img class="img" src="../assets/img/faces/marc.jpg" />
+                  </a>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-hover">
-                      <thead class="">
-                        <th>
-                          ID
-                        </th>
-                        <th>
-                          Name
-                        </th>
-                        <th>
-                          Country
-                        </th>
-                        <th>
-                          City
-                        </th>
-                        <th>
-                          Salary
-                        </th>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            1
-                          </td>
-                          <td>
-                            Dakota Rice
-                          </td>
-                          <td>
-                            Niger
-                          </td>
-                          <td>
-                            Oud-Turnhout
-                          </td>
-                          <td>
-                            $36,738
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            2
-                          </td>
-                          <td>
-                            Minerva Hooper
-                          </td>
-                          <td>
-                            Curaçao
-                          </td>
-                          <td>
-                            Sinaai-Waas
-                          </td>
-                          <td>
-                            $23,789
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            3
-                          </td>
-                          <td>
-                            Sage Rodriguez
-                          </td>
-                          <td>
-                            Netherlands
-                          </td>
-                          <td>
-                            Baileux
-                          </td>
-                          <td>
-                            $56,142
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            4
-                          </td>
-                          <td>
-                            Philip Chaney
-                          </td>
-                          <td>
-                            Korea, South
-                          </td>
-                          <td>
-                            Overland Park
-                          </td>
-                          <td>
-                            $38,735
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            5
-                          </td>
-                          <td>
-                            Doris Greene
-                          </td>
-                          <td>
-                            Malawi
-                          </td>
-                          <td>
-                            Feldkirchen in Kärnten
-                          </td>
-                          <td>
-                            $63,542
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            6
-                          </td>
-                          <td>
-                            Mason Porter
-                          </td>
-                          <td>
-                            Chile
-                          </td>
-                          <td>
-                            Gloucester
-                          </td>
-                          <td>
-                            $78,615
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <h6 class="card-category text-gray">CEO / Co-Founder</h6>
+                  <h4 class="card-title">Mr. Nigeria LGA</h4>
+                  <p class="card-description">
+                    Don't be scared of the truth because we need to restart the human foundation in truth.
+                  </p>
+                  <a href="javascript:;" class="btn btn-primary btn-round">Follow</a>
                 </div>
               </div>
             </div>
@@ -328,22 +164,22 @@ The above copyright notice and this permission notice shall be included in all c
           <nav class="float-left">
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
+                <a href="#">
+                  TecnickDB
                 </a>
               </li>
               <li>
-                <a href="https://creative-tim.com/presentation">
+                <a href="#">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="http://blog.creative-tim.com">
+                <a href="#">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="https://www.creative-tim.com/license">
+                <a href="#">
                   Licenses
                 </a>
               </li>
@@ -353,8 +189,7 @@ The above copyright notice and this permission notice shall be included in all c
             &copy;
             <script>
               document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+            </script>
           </div>
         </div>
       </footer>
@@ -363,6 +198,8 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- sidebar - fixed plugin -->
   <?php include '../assets/sidebar_plugin.php'; ?>
   <!-- sidebar - fixed plugin -->
+
+  
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
