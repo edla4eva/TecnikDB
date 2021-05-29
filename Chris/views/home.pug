@@ -1,0 +1,153 @@
+extends layouts/main-layout.pug
+
+block content   
+    header
+        .search-wrapper
+            span.ti-search
+            input(type='search', placeholder='Search')
+        .social-icons
+            span.ti-bell
+            span.ti-comment
+            .prof-user 
+                .img-1 
+                .tes 
+                    span Emma 
+                    span.tag Admin
+        
+    main
+        h2.dash-title Overview
+        .dash-cards
+            .card-single
+                .card-body
+                    span.ti-briefcase
+                    div
+                        h5 Active Jobs
+                        h4 7
+                        
+                .card-footer
+                    a(href='') View all
+            .card-single
+                .card-body
+                    span.ti-reload
+                    div
+                        h5 Pending Jobs
+                        h4 4
+                .card-footer
+                    a(href='') View all
+            .card-single
+                .card-body
+                    span.ti-check-box
+                    div
+                        h5 Finished Job
+                        h4 5
+                .card-footer
+                    a(href='') View all
+        section.recent
+            .activity-grid
+                .activity-card
+                    h3 Recent activity
+                    .table-responsive
+                        table
+                            thead
+                                tr
+                                    th Jobs
+                                    th Customer
+                                    th Date
+                                    th Attending Staff
+                                    th Status
+                            tbody
+                                tr
+                                    td 
+                                        a(href="") General Servicing
+                                    td 
+                                        span Mr Haruna Jacobs
+                                        br
+                                        span Black Lexus - 435TUDS
+                                    td   
+                                        span 15 May, 2021
+                                        br
+                                        span 6:00:35pm
+                                    td.td-team
+                                        .img-1
+                                        span Emma
+                                        
+                                    td
+                                        span.badge.success Completed
+                                tr
+                                    td 
+                                        a(href="") Body Work
+                                    td 
+                                        span Mr Elvis Ovo
+                                        br
+                                        span Silver Camry - 34DSEGF
+                                    td   
+                                        span 15 May, 2021
+                                        br
+                                        span 1:00:05pm
+                                    td.td-team
+                                        .img-3
+                                        span Sara
+                                        
+                                    td
+                                        span.badge.warning Pending
+                                tr
+                                    td 
+                                        a(href="") Car Spray
+                                    td 
+                                        span Mr Lucky Oseni
+                                        br
+                                        span Grey Nissan - 98URHBD
+                                    td   
+                                        span 14 May, 2021
+                                        br
+                                        span 2:00:35pm
+                                    td.td-team
+                                        .img-1
+                                        span Emma
+                                        
+                                    td
+                                        span.badge.success Completed
+                                tr
+                                    td 
+                                        a(href="") Oil Change
+                                    td 
+                                        span Mrs Margret Osasogie
+                                        br
+                                        span Red GLK - 487WIDK
+                                    td   
+                                        span 13 May, 2021
+                                        br
+                                        span 3:00:54pm
+                                        
+                                    td.td-team
+                                        .img-2
+                                        span Josh
+                                        
+                                    td
+                                        span.badge.warning Active
+                                tr
+                                    td 
+                                        a(href="") Braking system Rework
+                                    td 
+                                        span Micheal Akintola
+                                        br
+                                        span White Mercedes - 48HGTLP
+                                    td   
+                                        span 12 May, 2021
+                                        br
+                                        span 6:00:35pm
+                                    td.td-team
+                                        
+                                        .img-3
+                                        span Sara
+                                    td
+                                        span.badge.success Completed
+                .summary
+                    .summary-card
+                        .summary-single
+                            span.ti-id-badge
+                            div
+                                h5 19
+                                small Number of staff
+                        
+                        

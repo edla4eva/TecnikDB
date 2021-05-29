@@ -1,0 +1,27 @@
+.grid-job {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+  }
+  img.card-img{
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      
+  }
+
+  .style-chose{
+      width: 400px;
+      height: 250px;
+      overflow: hidden;
+      background-color: rgba(0, 0,0, 0.4);
+  }
+  .wrapper-job{
+      padding-left: 30px;
+  }
+  .card-title{
+      color: lightblue;
+      font-weight: 800;
+  }
